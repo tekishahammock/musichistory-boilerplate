@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+    <nav class="top-nav">
+      <ul>
+        <li><a href="index.html" title="view-music">View Music</a></li>
+        <li><a href="add-music.html" title="add-music">Add Music</a></li>
+        <li><a href="profile.html" title="profile">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article class="main">
+    <section class="left-nav">
+      <label for="song-length">Song Length:</label>
+      <input type="range" id="song length" name="song-length" min="0" max="360" step="60"></input>
+      <label for="artist-select">Artist:</label>
+      <select id="artist-select" name="artist">
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+      </select>
+      <label for="album-select">Album:</label>
+      <select id="album-select" name="album">
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+      </select>
+      <label for="genre-checkbox">Genre:</label>
+        <input type="checkbox" name="rock" value="rock">Rock</input>
+        <input type="checkbox" name="pop" value="pop">Pop</input>
+        <input type="checkbox" name="blues" value="blues">Blues</input>
+        <input type="checkbox" name="classical" value="classical">Classical</input>
+        <input type="checkbox" name="jazz" value="jazz">Jazz</input>
+        <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop</input>
+      <button type="filter">Filter</button>
+    </section>
+    <section class="main-body">
+      <div>
+        <h1>Song Name</h1>
+        <p>Artist Name  |  Album Name  |  Genre</p>
+      </div>
+      <div>
+        <h1>Song Name</h1>
+        <p>Artist Name  |  Album Name  |  Genre</p>
+      </div>
+      <div>
+        <h1>Song Name</h1>
+        <p>Artist Name  |  Album Name  |  Genre</p>
+      </div>
+      <div>
+        <h1>Song Name</h1>
+        <p>Artist Name  |  Album Name  |  Genre</p>
+      </div>
+    </section>
+  </article>
+  <footer>
+    <p>&copy;Tekisha Hammock 2016</p>
+  </footer>
+</body>
+</html>
