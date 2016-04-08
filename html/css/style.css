@@ -1,5 +1,5 @@
 /*===============================
- CSS STYLESHEET MUSIC HISTORY
+  CSS STYLESHEET MUSIC HISTORY
 =================================*/
 
 /* TOP-NAV STYLES */
@@ -19,6 +19,15 @@
   border-left: 2px solid black;
   border-right: 2px solid black;
   padding: 3px;
+}
+
+.top-nav a:hover {
+  text-decoration: none;
+}
+
+.top-nav a:selection {
+  text-decoration: none;
+  color: #000;
 }
 
 /* MAIN ALL STYLES */
@@ -42,11 +51,11 @@
 
 .left-nav label {
   display: block;
-  margin: 7% 5% 2%;
+  margin: 7% 12% 1%;
 }
 
 #song-length {
-  margin: 2% 23.5%;
+  margin: 2% 25%;
 }
 
 #artist-select,
@@ -54,18 +63,18 @@
   width: 10em;
   border: 2px solid black;
   border-radius: 5px;
-  margin: 0 17%;
+  margin: 0 20%;
 }
 
 .genre {
   display: block;
   width: 90%;
   height: 15vh;
-  margin: 5% 0 5% 10%;
+  margin: 5% 0 5% 15%;
 }
 
 .genre input {
-  margin: 0 0.25em 0 0;
+  margin: 0 0.5em 0 0;
 }
 
 .check-row-1 {
@@ -105,7 +114,7 @@ button {
 }
 
 .fav-song {
-  margin: 4%;
+  margin: 3% 5%;
 }
 
 .fav-song h1 {
@@ -125,5 +134,3 @@ footer {
   clear: both;
   margin: 3% 10%;
 }
-
-/* Insert media query for all sections to break at max 1074px. */
