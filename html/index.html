@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <!-- HEADER -->
 	<header>
     <nav class="top-nav">
       <ul>
@@ -18,59 +19,93 @@
       </ul>
     </nav>
   </header>
+  <!-- MAIN -->
   <article class="main">
+  <!-- LEFT-NAV -->
     <section class="left-nav">
-      <label for="song-length">Song Length:</label>
-      <input type="range" id="song length" name="song-length" min="0" max="360" step="60"></input>
-      <label for="artist-select">Artist:</label>
-      <select id="artist-select" name="artist">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-      </select>
-      <label for="album-select">Album:</label>
-      <select id="album-select" name="album">
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-      </select>
-      <label for="genre-checkbox">Genre:</label>
-        <input type="checkbox" name="rock" value="rock">Rock</input>
-        <input type="checkbox" name="pop" value="pop">Pop</input>
-        <input type="checkbox" name="blues" value="blues">Blues</input>
-        <input type="checkbox" name="classical" value="classical">Classical</input>
-        <input type="checkbox" name="jazz" value="jazz">Jazz</input>
-        <input type="checkbox" name="hip-hop" value="hip-hop">Hip Hop</input>
+      <div class="song-length">
+        <!-- SONG LENGTH -->
+        <label for="song-length">Song Length:</label>
+        <input type="range" id="song-length" name="song-length" min="0" max="420" step="60"></input>
+      </div>
+      <div class="artist">
+        <!-- ARTIST SELECT -->
+        <label for="artist-select">Artist:</label>
+        <select id="artist-select" name="artist">
+          <option value=""></option>
+          <option value="andrew-lloyd-webber">Andrew Lloyd Webber</option>
+          <option value="billie-holiday">Billie Holiday</option>
+          <option value="cascada">Cascada</option>
+          <option value="daft-punk">Daft Punk</option>
+          <option value="damn-yankees">Damn Yankees</option>
+          <option value="erykah-badu">Erykah Badu</option>
+          <option value="jonathan-larson">Jonathan Larson</option>}
+          <option value="la-roux">La Roux</option>
+          <option value="lauryn-hill">Lauryn Hill</option>
+          <option value="prince">Prince</option>
+        </select>
+      </div>
+      <div class="album">
+        <!-- ALBUM SELECT -->
+        <label for="album-select">Album:</label>
+        <select id="album-select" name="album">
+          <option value=""></option>
+          <option value="baduizm">Baduizm</option>
+          <option value="billie-holiday-greatest-hits">Billie Holiday - Greatest Hits</option>
+          <option value="damn-yankees">Damn Yankees</option>
+          <option value="everytime-we-touch">Everytime We Touch</option>
+          <option value="la-roux">La Roux</option>
+          <option value="the-miseducation-of-lauryn-hill">the Miseducation of Lauryn Hill</option>
+          <option value="the-phantom-of-the-opera-soundtrack">the Phantom of the Opera - Soundtrack</option>
+          <option value="purple-rain">Purple Rain</option>
+          <option value="random-access-memories">Random Access Memories</option>
+          <option value="rent-the-soundtrack">Rent - Soundtrack</option>
+        </select>
+      </div>
+      <div>
+        <!-- GENRE CHECKBOX -->
+        <label for="genre-checkbox">Genre:</label>
+        <div class="genre">
+          <div class="check-row-1">
+            <label for="rock">
+              <input type="checkbox" id="rock" name="rock" value="rock">Rock</input>
+            </label>
+            <label for="pop">
+              <input type="checkbox" id="pop" name="pop" value="pop">Pop</input>
+            </label>
+            <label for="blues">
+              <input type="checkbox" id="blues" name="blues" value="blues">Blues</input>
+            </label>
+          </div>
+          <div class="check-row-2">
+            <label for="musical">
+              <input type="checkbox" id="musical" name="musical" value="musical">Musical</input>
+            </label>
+            <label for="jazz">
+              <input type="checkbox" id="" name="jazz" value="jazz">Jazz</input>
+            </label>
+            <label for="r-b">
+              <input type="checkbox" id="r-b" name="r-b" value="r-b">R&B</input>
+            </label>
+          </div>
+        </div>
+      </div>
       <button type="filter">Filter</button>
     </section>
     <section class="main-body">
-      <div>
+      <div class="fav-song">
         <h1>Song Name</h1>
         <p>Artist Name  |  Album Name  |  Genre</p>
       </div>
-      <div>
+      <div class="fav-song">
         <h1>Song Name</h1>
         <p>Artist Name  |  Album Name  |  Genre</p>
       </div>
-      <div>
+      <div class="fav-song">
         <h1>Song Name</h1>
         <p>Artist Name  |  Album Name  |  Genre</p>
       </div>
-      <div>
+      <div class="fav-song">
         <h1>Song Name</h1>
         <p>Artist Name  |  Album Name  |  Genre</p>
       </div>
