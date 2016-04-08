@@ -42,7 +42,7 @@
 
 .left-nav label {
   display: block;
-  margin: 10% 5% 2%;
+  margin: 7% 5% 2%;
 }
 
 #song-length {
@@ -105,7 +105,7 @@ button {
 }
 
 .fav-song {
-  margin: 6%;
+  margin: 4%;
 }
 
 .fav-song h1 {
@@ -125,3 +125,5 @@ footer {
   clear: both;
   margin: 3% 10%;
 }
+
+/* Insert media query for all sections to break at max 1074px. */
